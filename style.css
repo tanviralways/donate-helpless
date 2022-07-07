@@ -38,7 +38,7 @@ footer {
 }
 footer h1 {
   font-size: 25px;
-  color: gold;
+  color: rgb(77, 204, 204);
   padding-top: 40px;
 }
 footer p {
@@ -114,24 +114,36 @@ footer p {
   border-radius: 7px;
 }
 .updates {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
+  margin-bottom: 100px;
 }
 .email-sub {
-  margin-left: 40px;
+  /* margin-left: 40px;
   margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 100px; */
+  /* width: 50px;
+  height: 50px;
+  display: inline-block;
+  left: 432px;
+  top: 50px; */
+  padding: 12px 30px 12px 30px;
+  border-style: hidden;
+  background-color: gainsboro;
 }
 .btn-sub {
   color: #fff;
   background-color: darkcyan;
-  padding: 10px 40px 10px 40px;
-
+  padding: 9px 40px 13px;
+  margin-left: -5px;
   border: none;
+  text-decoration: none;
 }
 .border {
-  border-top: 70px solid #ffeeee;
-  border-left: 180px solid #ffeeee;
-  border-bottom: 70px solid #ffeeee;
-  border-right: 180px solid #ffeeee;
+  background-color: #ffeeee;
+  padding: 50px 0 50px 0;
+  margin: 50px 200px 100px 200px;
 }
