@@ -14,39 +14,24 @@ html {
   text-align: center;
   padding-top: 50px;
   color: #fff;
-  /* padding-bottom: 50px; */
 }
 h1 {
   font-size: 50px;
 }
-
 .link-donate {
   text-decoration: none;
   font-size: 20px;
   color: #fff;
   background-color: darkcyan;
-
   padding: 12px 15px;
   display: inline-block;
   border-radius: 5px;
 }
-footer {
-  background-color: gray;
-  text-align: center;
-
-  height: 150px;
-}
-footer h1 {
-  font-size: 25px;
-  color: rgb(77, 204, 204);
-  padding-top: 40px;
-}
-footer p {
-  padding-top: 13px;
-  font-size: 13px;
-}
 .method-donation {
   text-align: center;
+}
+.method-donation p {
+  color: gray;
 }
 .fixed-ammount {
   display: flex;
@@ -69,7 +54,6 @@ footer p {
 }
 .other-ammount {
   font-size: 15px;
-
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
@@ -98,41 +82,54 @@ footer p {
   width: 17%;
   height: 22%;
 }
-#food {
+.donate-plan #food {
   background-color: #edf5f6;
   padding: 60px 30px 40px 30px;
   border-radius: 7px;
 }
-#shelter {
+.donate-plan #shelter {
   background-color: #fff4d6;
   padding: 60px 30px 40px 30px;
   border-radius: 7px;
 }
-#education {
+.donate-plan #education {
   background-color: #ffeeee;
   padding: 60px 30px 40px 30px;
   border-radius: 7px;
 }
+#donation-cause {
+  background-image: url(images/3.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100%;
+  background-position: center;
+  margin-top: 150px;
+}
+#donation-cause p {
+  font-size: 40px;
+  padding-bottom: 30px;
+  color: darkcyan;
+}
+#donation-cause h3 {
+  color: darkcyan;
+}
+#donation-cause h2 {
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+}
 .updates {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   text-align: center;
   margin-bottom: 100px;
 }
+.updates p {
+  color: gray;
+}
 .email-sub {
-  /* margin-left: 40px;
-  margin-top: 40px;
-  padding-top: 50px;
-  padding-bottom: 100px; */
-  /* width: 50px;
-  height: 50px;
-  display: inline-block;
-  left: 432px;
-  top: 50px; */
   padding: 12px 30px 12px 30px;
   border-style: hidden;
   background-color: gainsboro;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .btn-sub {
   color: #fff;
@@ -141,9 +138,26 @@ footer p {
   margin-left: -5px;
   border: none;
   text-decoration: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .border {
   background-color: #ffeeee;
   padding: 50px 0 50px 0;
   margin: 50px 200px 100px 200px;
+}
+footer {
+  background-color: gray;
+  text-align: center;
+
+  height: 150px;
+}
+footer h1 {
+  font-size: 25px;
+  color: rgb(77, 204, 204);
+  padding-top: 40px;
+}
+footer p {
+  padding-top: 13px;
+  font-size: 13px;
 }
