@@ -24,7 +24,7 @@ h1 {
   color: #fff;
   background-color: darkcyan;
   padding: 12px 15px;
-  display: inline-block;
+
   border-radius: 5px;
 }
 .method-donation {
@@ -64,6 +64,11 @@ h1 {
 .other-ammount:focus {
   outline: none !important;
   border-bottom: 2px solid black;
+}
+.click-to-donate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .plan-tittle {
   text-align: center;
